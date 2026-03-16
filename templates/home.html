@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h1>Welcome to Our Website!</h1>
+<p>This is the home page built using Flask templates.</p>
+
+<div id="events">
+
+{% for event in events %}
+
+<div class="event">
+<a href="{{ url_for('event_details', eventId=event.id) }}">
+{{ event.title }}
+</a>
+</div>
+
+{% else %}
+
+<p>No events found</p>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}
