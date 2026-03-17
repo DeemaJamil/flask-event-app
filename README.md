@@ -1,0 +1,28 @@
+# Flask Event Management App
+
+A simple web application built with **Flask** to manage and display events.  
+This project demonstrates backend development, working with forms, and database integration using SQLite.
+
+---
+
+## Features
+- Create and view events
+- Display all events on the home page
+- Detailed view for each event
+- Simple backend-focused design
+
+---
+
+## Technologies Used
+- Python
+- Flask
+- Flask-WTF
+- Flask-SQLAlchemy
+- HTML/Jinja templates
+- Basic CSS for styling
+- JavaScript for simple page interactions
+
+---
+
+
+git clone https://github.com/YOUR_USERNAME/flask-event-app.git
